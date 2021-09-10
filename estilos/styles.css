@@ -1,0 +1,170 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#background2{
+    background-color: white;
+}
+header{
+    width: 95%;
+    position: right;
+    z-index: 100;
+}
+nav{
+    float: right;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #c665ec;
+    border: 1px;
+    border-radius: 45%;
+}
+
+body{
+    background-color: rgb(221, 214, 214);
+}
+
+.intro{
+    position:absolute;
+    padding: 10px;
+    margin: 6%;
+    left: 8%;
+    top: 10%;
+}
+h2{
+    font-family: Arial;
+    font-size: 25px;
+}
+
+
+.buscar{
+    position: absolute;
+    padding: 10px;
+    margin: 12%;
+    top: 15%;
+    
+}
+.buscar input{
+    width: 475px;
+    height: 40px;
+    padding: 0 20 px;
+    font-size: 18px;
+    color: #0000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 40px;
+
+}
+::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+
+.btn{
+    position: absolute;
+    top: 15%;
+    right: 0px;
+    background: rgb(245, 95, 40);
+    box-shadow: 3px 10px 10px rgb(247, 156, 129);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#etiqueta{
+    position:absolute;
+    margin: 10%;
+    padding: 5%;
+    top:25%;
+    left: 1%;
+}
+.hermes{
+   background-color: white;
+   position: absolute;
+   top: 60%;
+   left: 15%;
+   width: 250px;
+}
+.hermes:hover div{
+    width:300px;
+}
+.hermes focus{
+    width:300px
+}
+.cocacola{
+    background-color: white;
+    position:absolute;
+    top: 60%;
+    left: 35%;
+    width: 250px;
+}
+.dropbox{
+    background-color: white;
+    position:absolute;
+    top: 60%;
+    left: 55%;
+    width: 250px;
+}
+.mcdonalds{
+    background-color: white;
+    position:absolute;
+    top: 60%;
+    left: 75%;
+    width: 250px;
+}
+.hermes, .cocacola, .dropbox, .mcdonalds {
+        
+        transition: transform .2s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      }
+      
+      .hermes:hover, .cocacola:hover, .dropbox:hover, .mcdonalds:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+     
+      }
+   
+
+
+
+#ubicacion{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+h4, h3{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#sueldo{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: indigo;
+    font-weight: bold;
+}
+footer{
+    background-color: white;
+}
